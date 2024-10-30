@@ -1,0 +1,568 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 4275 2550
+Connection ~ 4425 2550
+Connection ~ 4425 3600
+Connection ~ 4425 4000
+Connection ~ 4675 3600
+Connection ~ 4975 3100
+Connection ~ 4975 4050
+Connection ~ 5925 3200
+Connection ~ 5925 4200
+NoConn ~ 3625 3700
+Wire Wire Line
+	2525 3700 2525 3750
+Wire Wire Line
+	2675 3500 2825 3500
+Wire Wire Line
+	2825 3700 2775 3700
+Wire Wire Line
+	2825 3900 2825 3950
+Wire Wire Line
+	3625 3900 3875 3900
+Wire Wire Line
+	3725 3500 3625 3500
+Wire Wire Line
+	3725 4050 3725 3500
+Wire Wire Line
+	3875 3900 3875 3100
+Wire Wire Line
+	3875 4050 3725 4050
+Wire Wire Line
+	4175 4050 4975 4050
+Wire Wire Line
+	4225 3600 4225 3700
+Wire Wire Line
+	4275 2550 4125 2550
+Wire Wire Line
+	4275 2850 4275 2900
+Wire Wire Line
+	4425 2550 4275 2550
+Wire Wire Line
+	4425 2550 4425 3150
+Wire Wire Line
+	4425 3450 4425 3600
+Wire Wire Line
+	4425 3600 4225 3600
+Wire Wire Line
+	4425 3600 4425 3700
+Wire Wire Line
+	4425 4000 4225 4000
+Wire Wire Line
+	4525 4000 4425 4000
+Wire Wire Line
+	4575 2550 4425 2550
+Wire Wire Line
+	4575 2850 4575 2900
+Wire Wire Line
+	4675 2900 4675 3600
+Wire Wire Line
+	4675 3600 4425 3600
+Wire Wire Line
+	4675 3600 4675 3850
+Wire Wire Line
+	4675 3850 4975 3850
+Wire Wire Line
+	4975 2900 4675 2900
+Wire Wire Line
+	4975 3100 4175 3100
+Wire Wire Line
+	4975 3450 4975 3100
+Wire Wire Line
+	4975 4050 4975 4500
+Wire Wire Line
+	4975 4500 5375 4500
+Wire Wire Line
+	5175 2700 5225 2700
+Wire Wire Line
+	5175 3300 5225 3300
+Wire Wire Line
+	5175 3650 5225 3650
+Wire Wire Line
+	5175 4250 5225 4250
+Wire Wire Line
+	5375 3450 4975 3450
+Wire Wire Line
+	5675 3000 5925 3000
+Wire Wire Line
+	5675 3950 5925 3950
+Wire Wire Line
+	5925 3000 5925 3200
+Wire Wire Line
+	5925 3200 5925 3450
+Wire Wire Line
+	5925 3450 5675 3450
+Wire Wire Line
+	5925 3950 5925 4200
+Wire Wire Line
+	5925 4200 5925 4500
+Wire Wire Line
+	5925 4500 5675 4500
+Wire Wire Line
+	6175 3200 5925 3200
+Wire Wire Line
+	6175 4200 5925 4200
+Wire Wire Line
+	6425 2650 6425 2600
+Wire Wire Line
+	6475 3500 6475 4200
+Wire Wire Line
+	6625 3200 6475 3200
+Wire Wire Line
+	6625 3900 6625 3200
+Wire Wire Line
+	6675 3500 6475 3500
+Wire Wire Line
+	6675 3700 6575 3700
+Wire Wire Line
+	6675 3900 6625 3900
+Wire Wire Line
+	6875 2650 6875 2600
+Wire Wire Line
+	7475 3700 7575 3700
+Wire Wire Line
+	7475 3900 7475 3950
+Wire Wire Line
+	7675 3500 7475 3500
+Wire Wire Line
+	7825 3700 7825 3750
+Text Notes 5775 2050 2    60   ~ 0
+1W RF Amplifier
+Text Notes 5775 4700 2    60   ~ 0
+R1 et R2 passées à 390 Ohm pour un gain de 3,9
+Text Notes 6675 5000 2    60   ~ 0
+T4-1-X65 http://www.box73.de/product_info.php?products_id=1236
+Text Notes 6675 5150 2    60   ~ 0
+ADT1.5-1-X65 http://www.box73.de/product_info.php?products_id=1546
+Text Notes 7000 7100 0    60   ~ 0
+Schematic by Flex Radio (Flex 1000 TX output)
+Text Notes 7400 7500 0    60   ~ 0
+0.1 to 50 MHz 1W linear amplifier\n
+Text Notes 10650 7650 0    60   ~ 0
+1.0
+$Comp
+L ampli1W-rescue:+12V #PWR09
+U 1 1 565619C8
+P 4425 2550
+F 0 "#PWR09" H 4425 2400 50  0001 C CNN
+F 1 "+12V" H 4425 2690 50  0000 C CNN
+F 2 "" H 4425 2550 60  0000 C CNN
+F 3 "" H 4425 2550 60  0000 C CNN
+	1    4425 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:+12V #PWR016
+U 1 1 5656344E
+P 5175 2700
+F 0 "#PWR016" H 5175 2550 50  0001 C CNN
+F 1 "+12V" H 5175 2840 50  0000 C CNN
+F 2 "" H 5175 2700 60  0000 C CNN
+F 3 "" H 5175 2700 60  0000 C CNN
+	1    5175 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:+12V #PWR015
+U 1 1 56563413
+P 5175 3650
+F 0 "#PWR015" H 5175 3500 50  0001 C CNN
+F 1 "+12V" H 5175 3790 50  0000 C CNN
+F 2 "" H 5175 3650 60  0000 C CNN
+F 3 "" H 5175 3650 60  0000 C CNN
+	1    5175 3650
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:+12V #PWR010
+U 1 1 56561AB9
+P 6875 2650
+F 0 "#PWR010" H 6875 2500 50  0001 C CNN
+F 1 "+12V" H 6875 2790 50  0000 C CNN
+F 2 "" H 6875 2650 60  0000 C CNN
+F 3 "" H 6875 2650 60  0000 C CNN
+	1    6875 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR07
+U 1 1 56561389
+P 2525 3750
+F 0 "#PWR07" H 2525 3500 50  0001 C CNN
+F 1 "GND" H 2525 3600 50  0000 C CNN
+F 2 "" H 2525 3750 60  0000 C CNN
+F 3 "" H 2525 3750 60  0000 C CNN
+	1    2525 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR019
+U 1 1 56573D8A
+P 2775 3700
+F 0 "#PWR019" H 2775 3450 50  0001 C CNN
+F 1 "GND" H 2775 3550 50  0000 C CNN
+F 2 "" H 2775 3700 60  0000 C CNN
+F 3 "" H 2775 3700 60  0000 C CNN
+	1    2775 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR08
+U 1 1 565613BF
+P 2825 3950
+F 0 "#PWR08" H 2825 3700 50  0001 C CNN
+F 1 "GND" H 2825 3800 50  0000 C CNN
+F 2 "" H 2825 3950 60  0000 C CNN
+F 3 "" H 2825 3950 60  0000 C CNN
+	1    2825 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR01
+U 1 1 56560005
+P 4275 2900
+F 0 "#PWR01" H 4275 2650 50  0001 C CNN
+F 1 "GND" H 4275 2750 50  0000 C CNN
+F 2 "" H 4275 2900 60  0000 C CNN
+F 3 "" H 4275 2900 60  0000 C CNN
+	1    4275 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR03
+U 1 1 565602DE
+P 4525 4000
+F 0 "#PWR03" H 4525 3750 50  0001 C CNN
+F 1 "GND" H 4525 3850 50  0000 C CNN
+F 2 "" H 4525 4000 60  0000 C CNN
+F 3 "" H 4525 4000 60  0000 C CNN
+	1    4525 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR02
+U 1 1 5656009B
+P 4575 2900
+F 0 "#PWR02" H 4575 2650 50  0001 C CNN
+F 1 "GND" H 4575 2750 50  0000 C CNN
+F 2 "" H 4575 2900 60  0000 C CNN
+F 3 "" H 4575 2900 60  0000 C CNN
+	1    4575 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR013
+U 1 1 56562E4C
+P 5175 3300
+F 0 "#PWR013" H 5175 3050 50  0001 C CNN
+F 1 "GND" H 5175 3150 50  0000 C CNN
+F 2 "" H 5175 3300 60  0000 C CNN
+F 3 "" H 5175 3300 60  0000 C CNN
+	1    5175 3300
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR014
+U 1 1 56562E63
+P 5175 4250
+F 0 "#PWR014" H 5175 4000 50  0001 C CNN
+F 1 "GND" H 5175 4100 50  0000 C CNN
+F 2 "" H 5175 4250 60  0000 C CNN
+F 3 "" H 5175 4250 60  0000 C CNN
+	1    5175 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR04
+U 1 1 5656046A
+P 6425 2650
+F 0 "#PWR04" H 6425 2400 50  0001 C CNN
+F 1 "GND" H 6425 2500 50  0000 C CNN
+F 2 "" H 6425 2650 60  0000 C CNN
+F 3 "" H 6425 2650 60  0000 C CNN
+	1    6425 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR018
+U 1 1 56573D42
+P 6575 3700
+F 0 "#PWR018" H 6575 3450 50  0001 C CNN
+F 1 "GND" H 6575 3550 50  0000 C CNN
+F 2 "" H 6575 3700 60  0000 C CNN
+F 3 "" H 6575 3700 60  0000 C CNN
+	1    6575 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR06
+U 1 1 565610DE
+P 7475 3950
+F 0 "#PWR06" H 7475 3700 50  0001 C CNN
+F 1 "GND" H 7475 3800 50  0000 C CNN
+F 2 "" H 7475 3950 60  0000 C CNN
+F 3 "" H 7475 3950 60  0000 C CNN
+	1    7475 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR017
+U 1 1 5657379A
+P 7575 3700
+F 0 "#PWR017" H 7575 3450 50  0001 C CNN
+F 1 "GND" H 7575 3550 50  0000 C CNN
+F 2 "" H 7575 3700 60  0000 C CNN
+F 3 "" H 7575 3700 60  0000 C CNN
+	1    7575 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:GND #PWR05
+U 1 1 565610A8
+P 7825 3750
+F 0 "#PWR05" H 7825 3500 50  0001 C CNN
+F 1 "GND" H 7825 3600 50  0000 C CNN
+F 2 "" H 7825 3750 60  0000 C CNN
+F 3 "" H 7825 3750 60  0000 C CNN
+	1    7825 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:PWR_FLAG #FLG011
+U 1 1 56561BFF
+P 6425 2600
+F 0 "#FLG011" H 6425 2695 50  0001 C CNN
+F 1 "PWR_FLAG" H 6425 2780 50  0000 C CNN
+F 2 "" H 6425 2600 60  0000 C CNN
+F 3 "" H 6425 2600 60  0000 C CNN
+	1    6425 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:PWR_FLAG #FLG012
+U 1 1 56561CC8
+P 6875 2600
+F 0 "#FLG012" H 6875 2695 50  0001 C CNN
+F 1 "PWR_FLAG" H 6875 2780 50  0000 C CNN
+F 2 "" H 6875 2600 60  0000 C CNN
+F 3 "" H 6875 2600 60  0000 C CNN
+	1    6875 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:CONN_01X01 P3
+U 1 1 565725CD
+P 3925 2550
+F 0 "P3" H 3925 2650 50  0000 C CNN
+F 1 "CONN_01X01" V 4025 2550 50  0000 C CNN
+F 2 "Connect:PINTST" H 3925 2550 60  0001 C CNN
+F 3 "" H 3925 2550 60  0000 C CNN
+	1    3925 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:R R5
+U 1 1 5655FB58
+P 4025 3100
+F 0 "R5" V 4105 3100 50  0000 C CNN
+F 1 "100" V 4025 3100 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 3955 3100 30  0001 C CNN
+F 3 "" H 4025 3100 30  0000 C CNN
+	1    4025 3100
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:R R6
+U 1 1 5655FC30
+P 4025 4050
+F 0 "R6" V 4105 4050 50  0000 C CNN
+F 1 "100" V 4025 4050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 3955 4050 30  0001 C CNN
+F 3 "" H 4025 4050 30  0000 C CNN
+	1    4025 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:R R3
+U 1 1 5655FA75
+P 4425 3300
+F 0 "R3" V 4505 3300 50  0000 C CNN
+F 1 "1k" V 4425 3300 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 4355 3300 30  0001 C CNN
+F 3 "" H 4425 3300 30  0000 C CNN
+	1    4425 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:R R4
+U 1 1 5655FABF
+P 4425 3850
+F 0 "R4" V 4505 3850 50  0000 C CNN
+F 1 "1k" V 4425 3850 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 4355 3850 30  0001 C CNN
+F 3 "" H 4425 3850 30  0000 C CNN
+	1    4425 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:R R1
+U 1 1 5655F950
+P 5525 3450
+F 0 "R1" V 5605 3450 50  0000 C CNN
+F 1 "422" V 5525 3450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 5455 3450 30  0001 C CNN
+F 3 "" H 5525 3450 30  0000 C CNN
+	1    5525 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:R R2
+U 1 1 5655F97D
+P 5525 4500
+F 0 "R2" V 5605 4500 50  0000 C CNN
+F 1 "422" V 5525 4500 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 5455 4500 30  0001 C CNN
+F 3 "" H 5525 4500 30  0000 C CNN
+	1    5525 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L ampli1W-rescue:CP C5
+U 1 1 5655FC92
+P 4225 3850
+F 0 "C5" H 4250 3950 50  0000 L CNN
+F 1 ".1uF" H 4250 3750 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 4263 3700 30  0001 C CNN
+F 3 "" H 4225 3850 60  0000 C CNN
+	1    4225 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:CP C4
+U 1 1 5655FED8
+P 4275 2700
+F 0 "C4" H 4300 2800 50  0000 L CNN
+F 1 "6.8uF" H 4300 2600 50  0000 L CNN
+F 2 "smd_cap:c_tant_D" H 4313 2550 30  0001 C CNN
+F 3 "" H 4275 2700 60  0000 C CNN
+	1    4275 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:CP C3
+U 1 1 5655FF05
+P 4575 2700
+F 0 "C3" H 4600 2800 50  0000 L CNN
+F 1 ".1uF" H 4600 2600 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 4613 2550 30  0001 C CNN
+F 3 "" H 4575 2700 60  0000 C CNN
+	1    4575 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:CP C1
+U 1 1 5655FD84
+P 6325 3200
+F 0 "C1" H 6350 3300 50  0000 L CNN
+F 1 ".1uF" H 6350 3100 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 6363 3050 30  0001 C CNN
+F 3 "" H 6325 3200 60  0000 C CNN
+	1    6325 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:CP C2
+U 1 1 5655FDF5
+P 6325 4200
+F 0 "C2" H 6350 4300 50  0000 L CNN
+F 1 ".1uF" H 6350 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 6363 4050 30  0001 C CNN
+F 3 "" H 6325 4200 60  0000 C CNN
+	1    6325 4200
+	0    1    -1   0   
+$EndComp
+$Comp
+L ampli1W-rescue:BNC P2
+U 1 1 56560A12
+P 2525 3500
+F 0 "P2" H 2535 3620 50  0000 C CNN
+F 1 "SMA" V 2635 3440 50  0000 C CNN
+F 2 "conn_rf:sma_smd_73251-135x" H 2525 3500 60  0001 C CNN
+F 3 "" H 2525 3500 60  0000 C CNN
+	1    2525 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:BNC P1
+U 1 1 56560BB3
+P 7825 3500
+F 0 "P1" H 7835 3620 50  0000 C CNN
+F 1 "SMA" V 7935 3440 50  0000 C CNN
+F 2 "conn_rf:sma_smd_73251-135x" H 7825 3500 60  0001 C CNN
+F 3 "" H 7825 3500 60  0000 C CNN
+	1    7825 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:TRANSFO4-RESCUE-ampli1W T2
+U 1 1 56560755
+P 3225 3700
+F 0 "T2" H 3225 3950 50  0000 C CNN
+F 1 "T4-1-X65" H 3225 3400 50  0000 C CNN
+F 2 "smd_dil:mdip_6" H 3225 3700 60  0001 C CNN
+F 3 "" H 3225 3700 60  0000 C CNN
+	1    3225 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:TRANSFO4-RESCUE-ampli1W T1
+U 1 1 56560562
+P 7075 3700
+F 0 "T1" H 7075 3950 50  0000 C CNN
+F 1 "ADT1.5-1" H 7075 3400 50  0000 C CNN
+F 2 "smd_dil:mdip_6" H 7075 3700 60  0001 C CNN
+F 3 "" H 7075 3700 60  0000 C CNN
+	1    7075 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:OP275-RESCUE-ampli1W U1
+U 1 1 5655F8E7
+P 5325 3000
+F 0 "U1" H 5325 3150 60  0000 L CNN
+F 1 "OPA2677" H 5325 2850 60  0000 L CNN
+F 2 "smd_dil:so-8" H 5325 3000 60  0001 C CNN
+F 3 "" H 5325 3000 60  0000 C CNN
+	1    5325 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ampli1W-rescue:OP275-RESCUE-ampli1W U1
+U 2 1 5655F926
+P 5325 3950
+F 0 "U1" H 5325 4100 60  0000 L CNN
+F 1 "OPA2677" H 5325 3800 60  0000 L CNN
+F 2 "smd_dil:so-8" H 5325 3950 60  0001 C CNN
+F 3 "" H 5325 3950 60  0000 C CNN
+	2    5325 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

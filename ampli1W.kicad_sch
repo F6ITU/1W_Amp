@@ -1,0 +1,4608 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0088d107-13d8-496c-8da6-7bbeb9d096b0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ampli1W-rescue:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:BNC"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BNC"
+				(at 2.794 -1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BNC_* bnc bnc-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BNC_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.778)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BNC_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.302)
+					(name "In"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.302)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:CONN_01X01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_01X01"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin_Header_Straight_1X01 Pin_Header_Angled_1X01 Socket_Strip_Straight_1X01 Socket_Strip_Angled_1X01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_01X01_0_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0.254 -0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_01X01_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:CP"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP* Elko* TantalC* C*elec c_elec* SMD*_Pol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end -2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.286 1.016)
+					(end -2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 1.016)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:OP275-RESCUE-ampli1W"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OP275-RESCUE-ampli1W"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OP275-RESCUE-ampli1W_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OP275-RESCUE-ampli1W_1_1"
+				(pin output line
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OP275-RESCUE-ampli1W_2_1"
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.905 2.54) (xy 0 3.81) (xy 1.905 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* Resistor_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ampli1W-rescue:TRANSFO4-RESCUE-ampli1W"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TRANSFO4-RESCUE-ampli1W"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TRANSFO4-RESCUE-ampli1W_0_1"
+				(arc
+					(start -2.54 -5.0546)
+					(mid -1.6599 -4.6901)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.5146)
+					(mid -1.6599 -2.1501)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0.0254)
+					(mid -1.6599 0.3899)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.5654)
+					(mid -1.6599 2.9299)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -1.642 -2.912)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -1.642 -0.372)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -1.642 2.168)
+					(end -2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -1.642 4.708)
+					(end -2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.08) (xy -0.635 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -5.08) (xy 0.635 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 -1.27)
+					(mid 1.6599 -2.1501)
+					(end 2.54 -2.5146)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 1.27)
+					(mid 1.6599 0.3899)
+					(end 2.54 0.0254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2954 3.81)
+					(mid 1.6599 2.9299)
+					(end 2.54 2.5654)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.3208 -3.81)
+					(mid 1.6853 -4.6901)
+					(end 2.5654 -5.0546)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.642 -0.372)
+					(end 1.2954 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.642 2.168)
+					(end 1.2954 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.642 4.708)
+					(end 1.2954 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5654 -2.54)
+					(mid 1.6674 -2.912)
+					(end 1.3208 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TRANSFO4-RESCUE-ampli1W_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 7.62)
+					(name "PR1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 7.62)
+					(name "PM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 7.62)
+					(name "PR2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 7.62)
+					(name "S1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 7.62)
+					(name "S2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 150.495 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b838d52-596d-4e4d-a6ac-e4c8e7621137")
+	)
+	(junction
+		(at 112.395 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46918595-4a45-48e8-84c0-961b4db7f35f")
+	)
+	(junction
+		(at 150.495 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66116376-6967-4178-9f23-a26cdeafc400")
+	)
+	(junction
+		(at 126.365 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2d26bc-6eca-436c-8025-79f817bf57d6")
+	)
+	(junction
+		(at 112.395 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a690fc6c-55d9-47e6-b533-faa4b67e20f3")
+	)
+	(junction
+		(at 118.745 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a795f1ba-cdd5-4cc5-9a52-08586e982934")
+	)
+	(junction
+		(at 108.585 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c144caa5-b0d4-4cef-840a-d4ad178a2102")
+	)
+	(junction
+		(at 112.395 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41b3c8b-634e-435a-b582-96b83bbd4032")
+	)
+	(junction
+		(at 126.365 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb24efdd-07c6-4317-9277-131625b065ac")
+	)
+	(no_connect
+		(at 92.075 93.98)
+		(uuid "b88717bd-086f-46cd-9d3f-0396009d0996")
+	)
+	(wire
+		(pts
+			(xy 126.365 114.3) (xy 136.525 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0147f16a-c952-4891-8f53-a9fb8cddeb8d")
+	)
+	(wire
+		(pts
+			(xy 168.275 99.06) (xy 168.275 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e9b6e7-adf9-4ee7-9447-a588630ee4a2")
+	)
+	(wire
+		(pts
+			(xy 94.615 102.87) (xy 94.615 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0755aee5-bc01-4cb5-b830-583289df50a3")
+	)
+	(wire
+		(pts
+			(xy 150.495 87.63) (xy 144.145 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0bb7b2-a6e5-46d2-9492-a1aa6e5a7b2f")
+	)
+	(wire
+		(pts
+			(xy 112.395 87.63) (xy 112.395 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13abf99d-5265-4779-8973-e94370fd18ff")
+	)
+	(wire
+		(pts
+			(xy 116.205 64.77) (xy 112.395 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c0ff76-ed71-4cd9-abb0-92c376825d5d")
+	)
+	(wire
+		(pts
+			(xy 150.495 114.3) (xy 144.145 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15875808-74d5-4210-b8ca-aa8fbc04ae21")
+	)
+	(wire
+		(pts
+			(xy 71.755 93.98) (xy 70.485 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a9ae8c-3ad2-439b-8efe-377c994670c7")
+	)
+	(wire
+		(pts
+			(xy 112.395 64.77) (xy 108.585 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182b2d54-931d-49d6-9f39-60a752623e36")
+	)
+	(wire
+		(pts
+			(xy 116.205 72.39) (xy 116.205 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1831fb37-1c5d-42c4-b898-151be6fca9dc")
+	)
+	(wire
+		(pts
+			(xy 112.395 101.6) (xy 107.315 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc272bd-3aa2-45b5-889d-1d3c8aac80f8")
+	)
+	(wire
+		(pts
+			(xy 131.445 68.58) (xy 132.715 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378af8b4-af3d-46e7-89ae-deff12ca9067")
+	)
+	(wire
+		(pts
+			(xy 126.365 78.74) (xy 106.045 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5fe6b7-98fc-4d3e-9567-f9f7202d1455")
+	)
+	(wire
+		(pts
+			(xy 174.625 67.31) (xy 174.625 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40165eda-4ba6-4565-9bb4-b9df6dbb08da")
+	)
+	(wire
+		(pts
+			(xy 94.615 88.9) (xy 92.075 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a21e717-d46d-4d9e-8b98-af4ecb02d3ec")
+	)
+	(wire
+		(pts
+			(xy 136.525 87.63) (xy 126.365 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3d7c0d-12e3-42f2-b944-e4bcdbbcac2a")
+	)
+	(wire
+		(pts
+			(xy 169.545 99.06) (xy 168.275 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec")
+	)
+	(wire
+		(pts
+			(xy 98.425 102.87) (xy 94.615 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb21471-41be-4be8-9687-66030f97befc")
+	)
+	(wire
+		(pts
+			(xy 108.585 64.77) (xy 104.775 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5114c7bf-b955-49f3-a0a8-4b954c81bde0")
+	)
+	(wire
+		(pts
+			(xy 118.745 73.66) (xy 118.745 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2b5c7d-f943-4634-9f0a-e9561705c49d")
+	)
+	(wire
+		(pts
+			(xy 106.045 102.87) (xy 126.365 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbb5968-dbb5-4b84-864a-ead1cacf75b9")
+	)
+	(wire
+		(pts
+			(xy 189.865 99.06) (xy 189.865 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ff1c93-3f96-4c33-b498-5dd8c33bccc0")
+	)
+	(wire
+		(pts
+			(xy 126.365 102.87) (xy 126.365 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a44418c-7bb4-4e99-8836-57f153c19721")
+	)
+	(wire
+		(pts
+			(xy 169.545 88.9) (xy 164.465 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e15522-1572-4451-9c0d-6d36ac70d8c6")
+	)
+	(wire
+		(pts
+			(xy 114.935 101.6) (xy 112.395 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c31975-2c45-4d18-a25a-18e07a55d11e")
+	)
+	(wire
+		(pts
+			(xy 107.315 91.44) (xy 107.315 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746ba970-8279-4e7b-aed3-f28687777c21")
+	)
+	(wire
+		(pts
+			(xy 156.845 106.68) (xy 150.495 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749dfe75-c0d6-4872-9330-29c5bbcb8ff8")
+	)
+	(wire
+		(pts
+			(xy 98.425 99.06) (xy 98.425 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7599133e-c681-4202-85d9-c20dac196c64")
+	)
+	(wire
+		(pts
+			(xy 169.545 93.98) (xy 167.005 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770ad51a-7219-4633-b24a-bd20feb0a6c5")
+	)
+	(wire
+		(pts
+			(xy 118.745 91.44) (xy 118.745 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789ca812-3e0c-4a3f-97bc-a916dd9bce80")
+	)
+	(wire
+		(pts
+			(xy 163.195 67.31) (xy 163.195 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e023245-2c2b-4e2b-bfb9-5d35176e88f2")
+	)
+	(wire
+		(pts
+			(xy 150.495 100.33) (xy 150.495 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bbc3ff-3938-49ac-8297-ce2bcc9a42bd")
+	)
+	(wire
+		(pts
+			(xy 131.445 107.95) (xy 132.715 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c514922-ffe1-4e37-a260-e807409f2e0d")
+	)
+	(wire
+		(pts
+			(xy 67.945 88.9) (xy 71.755 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922058ca-d09a-45fd-8394-05f3e2c1e03a")
+	)
+	(wire
+		(pts
+			(xy 108.585 72.39) (xy 108.585 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
+	)
+	(wire
+		(pts
+			(xy 194.945 88.9) (xy 189.865 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fe9c60-586f-4895-8504-4d3729f5f81a")
+	)
+	(wire
+		(pts
+			(xy 64.135 93.98) (xy 64.135 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0a1687-7e1b-4a04-a30b-c27a072a2949")
+	)
+	(wire
+		(pts
+			(xy 112.395 64.77) (xy 112.395 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccf03e8-755a-4cd9-96fc-30e1d08fa253")
+	)
+	(wire
+		(pts
+			(xy 198.755 93.98) (xy 198.755 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1b837f-0d34-4a18-9644-9ee68f141f46")
+	)
+	(wire
+		(pts
+			(xy 126.365 73.66) (xy 118.745 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03e565f-d8cd-4032-aae3-b7327d4143dd")
+	)
+	(wire
+		(pts
+			(xy 150.495 81.28) (xy 150.495 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17904b9-135e-4dae-ae20-401c7787de72")
+	)
+	(wire
+		(pts
+			(xy 131.445 92.71) (xy 132.715 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27eb049-c992-4f11-a026-1e6a8d9d0160")
+	)
+	(wire
+		(pts
+			(xy 189.865 93.98) (xy 192.405 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cd8da1-8f7f-4f80-bb23-0317de562222")
+	)
+	(wire
+		(pts
+			(xy 118.745 91.44) (xy 112.395 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7520ad3-0f8b-4788-92d4-8ffb277041e6")
+	)
+	(wire
+		(pts
+			(xy 126.365 87.63) (xy 126.365 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa02e544-13f5-4cf8-a5f4-3e6cda006090")
+	)
+	(wire
+		(pts
+			(xy 144.145 100.33) (xy 150.495 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1169a2d-8998-4b50-a48d-c520bcc1b8e1")
+	)
+	(wire
+		(pts
+			(xy 71.755 99.06) (xy 71.755 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01d25cd-f4bb-4ef3-b5ea-533a2a4ddb2b")
+	)
+	(wire
+		(pts
+			(xy 131.445 83.82) (xy 132.715 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25a772d-af9c-4ebc-96f6-0966738c13a8")
+	)
+	(wire
+		(pts
+			(xy 118.745 97.79) (xy 126.365 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70d9ef3-bfeb-47e0-a1e1-9aeba3da7864")
+	)
+	(wire
+		(pts
+			(xy 168.275 81.28) (xy 164.465 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca87f11b-5f48-4b57-8535-68d3ec2fe5a9")
+	)
+	(wire
+		(pts
+			(xy 112.395 91.44) (xy 107.315 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfb07af-801b-44ba-8c30-d021a6ad3039")
+	)
+	(wire
+		(pts
+			(xy 144.145 76.2) (xy 150.495 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1262c4d-2245-4c4f-8f35-7bb32cd9e21e")
+	)
+	(wire
+		(pts
+			(xy 150.495 76.2) (xy 150.495 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22e95aa-f3db-4fbc-a331-048a2523233e")
+	)
+	(wire
+		(pts
+			(xy 164.465 88.9) (xy 164.465 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db36f6e3-e72a-487f-bda9-88cc84536f62")
+	)
+	(wire
+		(pts
+			(xy 92.075 99.06) (xy 98.425 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde51ae5-b215-445e-92bb-4a12ec410531")
+	)
+	(wire
+		(pts
+			(xy 112.395 91.44) (xy 112.395 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b860cc-cb76-4220-acfb-68f1eb348bfa")
+	)
+	(wire
+		(pts
+			(xy 156.845 81.28) (xy 150.495 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb667eea-300e-4ca7-8a6f-4b00de80cd45")
+	)
+	(wire
+		(pts
+			(xy 150.495 106.68) (xy 150.495 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f202141e-c20d-4cac-b016-06a44f2ecce8")
+	)
+	(text "1W RF Amplifier"
+		(exclude_from_sim no)
+		(at 146.685 52.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "4780a290-d25c-4459-9579-eba3f7678762")
+	)
+	(text "Schematic by Flex Radio (Flex 1000 TX output)"
+		(exclude_from_sim no)
+		(at 177.8 180.34 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "68877d35-b796-44db-9124-b8e744e7412e")
+	)
+	(text "G = +1, RF = 511Ω \nG = +2, RF = 475Ω \nG = +4, RF = 402Ω \nG = +8, RF = 250Ω"
+		(exclude_from_sim no)
+		(at 158.75 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c4c340b-dc1b-478a-ab08-b1ef0956d640")
+	)
+	(text "ADT1.5-1-X65 http://www.box73.de/product_info.php?products_id=1546"
+		(exclude_from_sim no)
+		(at 169.545 130.81 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "8412992d-8754-44de-9e08-115cec1a3eff")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 270.51 194.31 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c332fa55-4168-4f55-88a5-f82c7c21040b")
+	)
+	(text "0.1 to 50 MHz 1W linear amplifier\n"
+		(exclude_from_sim no)
+		(at 187.96 190.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "df32840e-2912-4088-b54c-9a85f64c0265")
+	)
+	(text "R1 et R2 passées à 390 Ohm pour un gain de 3,9"
+		(exclude_from_sim no)
+		(at 146.685 119.38 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4c6fdbb-fdc7-4ad4-a516-240d84cdc120")
+	)
+	(text "T4-1-X65 http://www.box73.de/product_info.php?products_id=1236"
+		(exclude_from_sim no)
+		(at 169.545 127 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffd175d1-912a-4224-be1e-a8198680f46b")
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:OP275-RESCUE-ampli1W")
+		(at 135.255 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655f8e7")
+		(property "Reference" "U1"
+			(at 135.255 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2677"
+			(at 135.255 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "smd_dil:so-8"
+			(at 135.255 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7afa54c4-2181-41d3-81f7-39efc497ecae")
+		)
+		(pin "8"
+			(uuid "609b9e1b-4e3b-42b7-ac76-a62ec4d0e7c7")
+		)
+		(pin "1"
+			(uuid "e54e5e19-1deb-49a9-8629-617db8e434c0")
+		)
+		(pin "2"
+			(uuid "b7867831-ef82-4f33-a926-59e5c1c09b91")
+		)
+		(pin "3"
+			(uuid "6bf05d19-ba3e-4ba6-8a6f-4e0bc45ea3b2")
+		)
+		(pin "5"
+			(uuid "3ece3c9f-a5de-4042-aec8-6fcf8803bfe0")
+		)
+		(pin "6"
+			(uuid "c424805c-5583-4ff8-ad7d-247cae5223eb")
+		)
+		(pin "7"
+			(uuid "97fde01b-6d54-4e01-a3d9-85c93c2bdaff")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:OP275-RESCUE-ampli1W")
+		(at 135.255 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655f926")
+		(property "Reference" "U1"
+			(at 135.255 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2677"
+			(at 135.255 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "smd_dil:so-8"
+			(at 135.255 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a850cb6-bb24-4274-a902-e49f34f0a0e3")
+		)
+		(pin "8"
+			(uuid "e5203297-b913-4288-a576-12a92185cb52")
+		)
+		(pin "1"
+			(uuid "02af50bb-ec8f-46f5-aa16-98720949ffe1")
+		)
+		(pin "2"
+			(uuid "db285c73-2575-4f35-9d38-057b99bc2088")
+		)
+		(pin "3"
+			(uuid "f0a86629-931f-4c8c-bf38-4f505ad5f275")
+		)
+		(pin "5"
+			(uuid "79e31048-072a-4a40-a625-26bb0b5f046b")
+		)
+		(pin "6"
+			(uuid "c76d4423-ef1b-4a6f-8176-33d65f2877bb")
+		)
+		(pin "7"
+			(uuid "f7667b23-296e-4362-a7e3-949632c8954b")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 140.335 87.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655f950")
+		(property "Reference" "R1"
+			(at 140.335 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "422"
+			(at 140.335 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 140.335 85.852 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.335 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22999e73-da32-43a5-9163-4b3a41614f25")
+		)
+		(pin "2"
+			(uuid "6e68f0cd-800e-4167-9553-71fc59da1eeb")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 140.335 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655f97d")
+		(property "Reference" "R2"
+			(at 140.335 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "422"
+			(at 140.335 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 140.335 112.522 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.335 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31540a7e-dc9e-4e4d-96b1-dab15efa5f4b")
+		)
+		(pin "2"
+			(uuid "8c1605f9-6c91-4701-96bf-e753661d5e23")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 112.395 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fa75")
+		(property "Reference" "R3"
+			(at 110.363 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 112.395 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 114.173 83.82 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 83.82 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bb7815-0d52-4bb8-b29a-8cf960bd2905")
+		)
+		(pin "2"
+			(uuid "d2d7bea6-0c22-495f-8666-323b30e03150")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 112.395 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fabf")
+		(property "Reference" "R4"
+			(at 110.363 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 112.395 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 114.173 97.79 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69a5fdf-de15-4ec9-94f6-f9ee2f4b69fa")
+		)
+		(pin "2"
+			(uuid "917920ab-0c6e-4927-974d-ef342cdd4f63")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 102.235 78.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fb58")
+		(property "Reference" "R5"
+			(at 102.235 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 102.235 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 102.235 76.962 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.235 78.74 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.235 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bcafe80-ffba-4f1e-ae51-95a595b006db")
+		)
+		(pin "2"
+			(uuid "026ac84e-b8b2-4dd2-b675-8323c24fd778")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:R")
+		(at 102.235 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fc30")
+		(property "Reference" "R6"
+			(at 102.235 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 102.235 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_0805_HandSoldering"
+			(at 102.235 101.092 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.235 102.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.235 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "180245d9-4a3f-4d1b-adcc-b4eafac722e0")
+		)
+		(pin "2"
+			(uuid "f8f3a9fc-1e34-4573-a767-508104e8d242")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CP")
+		(at 107.315 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fc92")
+		(property "Reference" "C5"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_1206_HandSoldering"
+			(at 106.3498 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcdc92b-2219-4a4a-8954-45f02cc3ab25")
+		)
+		(pin "2"
+			(uuid "dae72997-44fc-4275-b36f-cd70bf46cfba")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CP")
+		(at 160.655 81.28 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fd84")
+		(property "Reference" "C1"
+			(at 163.195 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 158.115 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_1206_HandSoldering"
+			(at 156.845 80.3148 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.655 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.655 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c106154f-d948-43e5-abfa-e1b96055d91b")
+		)
+		(pin "2"
+			(uuid "c24d6ac8-802d-4df3-a210-9cb1f693e865")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CP")
+		(at 160.655 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fdf5")
+		(property "Reference" "C2"
+			(at 163.195 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 158.115 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_1206_HandSoldering"
+			(at 156.845 105.7148 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.655 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.655 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0c2eb8e-f6d1-4506-8e6b-4f995ad74c1f")
+		)
+		(pin "2"
+			(uuid "f9c81c26-f253-4227-a69f-53e64841cfbe")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CP")
+		(at 108.585 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655fed8")
+		(property "Reference" "C4"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8uF"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "smd_cap:c_tant_D"
+			(at 107.6198 72.39 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 108.585 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa79024d-ca7e-4c24-b127-7df08bbd0c75")
+		)
+		(pin "2"
+			(uuid "26801cfb-b53b-4a6a-a2f4-5f4986565765")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CP")
+		(at 116.205 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005655ff05")
+		(property "Reference" "C3"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_1206_HandSoldering"
+			(at 115.2398 72.39 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cada57e2-1fa7-4b9d-a2a0-2218773d5c50")
+		)
+		(pin "2"
+			(uuid "752417ee-7d0b-4ac8-a22c-26669881a2ab")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 108.585 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056560005")
+		(property "Reference" "#PWR01"
+			(at 108.585 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.585 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.585 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 108.585 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71989e06-8659-4605-b2da-4f729cc41263")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 116.205 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005656009b")
+		(property "Reference" "#PWR02"
+			(at 116.205 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.205 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.205 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c0bc4d-eee5-4a77-ac35-d30b35db5cbe")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 114.935 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565602de")
+		(property "Reference" "#PWR03"
+			(at 121.285 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.745 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.935 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.935 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.935 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "399fc36a-ed5d-44b5-82f7-c6f83d9acc14")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 163.195 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005656046a")
+		(property "Reference" "#PWR04"
+			(at 163.195 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.195 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.195 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.195 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0a0deb1-4f0f-4ede-b730-2c6d67cb9618")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:TRANSFO4-RESCUE-ampli1W")
+		(at 179.705 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056560562")
+		(property "Reference" "T1"
+			(at 179.705 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADT1.5-1"
+			(at 179.705 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "smd_dil:mdip_6"
+			(at 179.705 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.705 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.705 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fcec304-c6b1-4655-8326-beacd0476953")
+		)
+		(pin "2"
+			(uuid "411d4270-c66c-4318-b7fb-1470d34862b8")
+		)
+		(pin "3"
+			(uuid "0520f61d-4522-4301-a3fa-8ed0bf060f69")
+		)
+		(pin "4"
+			(uuid "c8b92953-cd23-44e6-85ce-083fb8c3f20f")
+		)
+		(pin "5"
+			(uuid "bc0dbc57-3ae8-4ce5-a05c-2d6003bba475")
+		)
+		(pin "6"
+			(uuid "00f3ea8b-8a54-4e56-84ff-d98f6c00496c")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:TRANSFO4-RESCUE-ampli1W")
+		(at 81.915 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056560755")
+		(property "Reference" "T2"
+			(at 81.915 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T4-1-X65"
+			(at 81.915 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "smd_dil:mdip_6"
+			(at 81.915 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.915 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.915 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3326423d-8df7-4a7e-a354-349430b8fbd7")
+		)
+		(pin "2"
+			(uuid "4d4fecdd-be4a-47e9-9085-2268d5852d8f")
+		)
+		(pin "3"
+			(uuid "8458d41c-5d62-455d-b6e1-9f718c0faac9")
+		)
+		(pin "4"
+			(uuid "8de2d84c-ff45-4d4f-bc49-c166f6ae6b91")
+		)
+		(pin "5"
+			(uuid "935057d5-6882-4c15-9a35-54677912ba12")
+		)
+		(pin "6"
+			(uuid "e091e263-c616-48ef-a460-465c70218987")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:BNC")
+		(at 64.135 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056560a12")
+		(property "Reference" "P2"
+			(at 63.881 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMA"
+			(at 61.341 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "conn_rf:sma_smd_73251-135x"
+			(at 64.135 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3d57924-54a6-421d-a3a0-a044fc909e88")
+		)
+		(pin "2"
+			(uuid "eab9c52c-3aa0-43a7-bc7f-7e234ff1e9f4")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:BNC")
+		(at 198.755 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056560bb3")
+		(property "Reference" "P1"
+			(at 199.009 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMA"
+			(at 201.549 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "conn_rf:sma_smd_73251-135x"
+			(at 198.755 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.755 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.755 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d586a18-26c5-441e-a9ff-8125ee516126")
+		)
+		(pin "2"
+			(uuid "477892a1-722e-4cda-bb6c-fcdb8ba5f93e")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 198.755 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565610a8")
+		(property "Reference" "#PWR05"
+			(at 198.755 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.755 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.755 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.755 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.755 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997c2f12-73ba-4c01-9ee0-42e37cbab790")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 189.865 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565610de")
+		(property "Reference" "#PWR06"
+			(at 189.865 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.865 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.865 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.865 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.865 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f43d730-2a73-49fe-9672-32428e7f5b49")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 64.135 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056561389")
+		(property "Reference" "#PWR07"
+			(at 64.135 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.135 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4db7f11-8cfe-40d2-b021-b36f05241701")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 71.755 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565613bf")
+		(property "Reference" "#PWR08"
+			(at 71.755 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.755 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b4bc7e-da32-4fb8-b71a-d7b47c6f741f")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:+12V")
+		(at 112.395 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565619c8")
+		(property "Reference" "#PWR09"
+			(at 112.395 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 112.395 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.395 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34d03349-6d78-4165-a683-2d8b76f2bae8")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:+12V")
+		(at 174.625 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056561ab9")
+		(property "Reference" "#PWR010"
+			(at 174.625 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 174.625 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 174.625 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c499b1-9227-4e4b-9982-f9f1aa6203b9")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:PWR_FLAG")
+		(at 163.195 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056561bff")
+		(property "Reference" "#FLG011"
+			(at 163.195 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.195 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.195 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.195 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.195 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c9471f-7503-4339-928c-d1abae1eede6")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:PWR_FLAG")
+		(at 174.625 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056561cc8")
+		(property "Reference" "#FLG012"
+			(at 174.625 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 174.625 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 174.625 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99332785-d9f1-4363-9377-26ddc18e6d2c")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 131.445 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056562e4c")
+		(property "Reference" "#PWR013"
+			(at 125.095 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.635 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.445 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.445 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 131.445 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20cca02e-4c4d-4961-b6b4-b40a1731b220")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 131.445 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056562e63")
+		(property "Reference" "#PWR014"
+			(at 125.095 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.635 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.445 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.445 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 131.445 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4107d40a-e5df-4255-aacc-13f9928e090c")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:+12V")
+		(at 131.445 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056563413")
+		(property "Reference" "#PWR015"
+			(at 135.255 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127.889 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.445 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.445 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 131.445 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e315e69-0417-463a-8b7f-469a08d1496e")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:+12V")
+		(at 131.445 68.58 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005656344e")
+		(property "Reference" "#PWR016"
+			(at 135.255 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127.889 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.445 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.445 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 131.445 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1d60ff-408a-47a7-892f-c5cf9ef6ca75")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:CONN_01X01")
+		(at 99.695 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565725cd")
+		(property "Reference" "P3"
+			(at 99.695 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONN_01X01"
+			(at 97.155 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connect:PINTST"
+			(at 99.695 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e502d1d5-04b0-4d4b-b5c3-8c52d09668e7")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 192.405 93.98 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005657379a")
+		(property "Reference" "#PWR017"
+			(at 198.755 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 192.405 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.405 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 192.405 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa918b6d-f6cf-4471-be3b-4ff713f55a2e")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 167.005 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056573d42")
+		(property "Reference" "#PWR018"
+			(at 160.655 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.195 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.005 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.005 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.005 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6cd701f-4223-4e72-a305-466869ccb250")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ampli1W-rescue:GND")
+		(at 70.485 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056573d8a")
+		(property "Reference" "#PWR019"
+			(at 64.135 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.675 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.485 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 70.485 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c30b9b4-3014-4f50-9329-27a539b67e01")
+		)
+		(instances
+			(project "ampli1W"
+				(path "/0088d107-13d8-496c-8da6-7bbeb9d096b0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

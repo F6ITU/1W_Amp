@@ -1,0 +1,45 @@
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\sym-lib-table" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\sym-lib-table-2019-07-24-12-24-12".
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\ampli1W.sch" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\ampli1W-2019-07-24-12-24-12.sch".
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\ampli1W.pro" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\ampli1W-2019-07-24-12-24-12.pro".
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\ampli1W-cache.lib" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\ampli1W-cache-2019-07-24-12-24-12.lib".
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\ampli1W-rescue.lib" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\ampli1W-rescue-2019-07-24-12-24-12.lib".
+Info: Sauvegarde du fichier "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\ampli1W-rescue.dcm" sous "C:\Users\Marco\Documents\Kicad\Projets\1W_Amp\rescue-backup\ampli1W-rescue-2019-07-24-12-24-12.dcm".
+Info: Ajout de la librairie "ampli1W-rescue", fichier "${KIPRJMOD}/ampli1W-rescue.lib" à la table des librairies de symboles.
+Symbole "OP275-RESCUE-ampli1W" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "OP275-RESCUE-ampli1W" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "R" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CP" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CP" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CP" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CP" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CP" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "TRANSFO4-RESCUE-ampli1W" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "TRANSFO4-RESCUE-ampli1W" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "BNC" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "BNC" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "+12V" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "+12V" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "PWR_FLAG" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "PWR_FLAG" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "+12V" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "+12V" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "CONN_01X01" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Symbole "GND" lié à la librairie de symboles "ampli1W-rescue".
+Info: Mappage de table dl librairie de symboles complet !
